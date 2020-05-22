@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Mr+Dafoe');
+@import url('https://fonts.googleapis.com/css?family=Mukta+Malar:300,700');
+
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+
+}
+
+.grid-layout header {
+  grid-column: 1/3;
+  background-color: #dddddd;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.grid-layout h1 {
+  grid-column: 1/3;
+  text-align: center;
+}
+
+.grid-layout nav a {
+
+  display: block;
+  text-decoration: none;
+  background-color: #fab7b7;
+  grid-column: 1/2;
+  padding: 10%;
+  text-align: center;
+  color: #ad6989;
+  border: 1px solid white;
+
+
+}
+
+.grid-layout nav a:hover {
+  background-color: #ffa299;
+}
+
+.grid-layout .main {
+  text-align: center;
+}
